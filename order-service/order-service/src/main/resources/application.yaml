@@ -11,3 +11,11 @@ spring:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       properties:
         spring.json.add.type.headers: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orders_db
+    username: postgres
+    password: postgres123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
