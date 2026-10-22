@@ -1,0 +1,17 @@
+# IDE & System Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+
+# Build Outputs for all subprojects
+/build/
+/target/
+/out/
+/*.jar
+
+# Logs & Temp files
+*.log
+.env
