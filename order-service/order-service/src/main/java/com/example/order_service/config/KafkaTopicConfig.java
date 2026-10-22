@@ -19,6 +19,7 @@ public class KafkaTopicConfig {
                 .build();
     }
 
+    @Bean
     public NewTopic inventoryResultTopic(){
         return TopicBuilder.name(INVENTORY_RESULT_TOPIC)
                 .partitions(1)
